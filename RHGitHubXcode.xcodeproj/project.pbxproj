@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ADBBD2E19982EF400C5F81D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADBBD2D19982EF400C5F81D /* Foundation.framework */; };
+		3ADBBD3019982EF400C5F81D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADBBD2F19982EF400C5F81D /* CoreGraphics.framework */; };
+		3ADBBD3219982EF400C5F81D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADBBD3119982EF400C5F81D /* UIKit.framework */; };
+		3ADBBD3819982EF400C5F81D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBBD3619982EF400C5F81D /* InfoPlist.strings */; };
+		3ADBBD3A19982EF400C5F81D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBBD3919982EF400C5F81D /* main.m */; };
+		3ADBBD3E19982EF400C5F81D /* RHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBBD3D19982EF400C5F81D /* RHAppDelegate.m */; };
+		3ADBBD4119982EF400C5F81D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBBD3F19982EF400C5F81D /* Main.storyboard */; };
+		3ADBBD4419982EF500C5F81D /* RHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBBD4319982EF500C5F81D /* RHViewController.m */; };
+		3ADBBD4619982EF500C5F81D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBBD4519982EF500C5F81D /* Images.xcassets */; };
+		3ADBBD4D19982EF500C5F81D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADBBD4C19982EF500C5F81D /* XCTest.framework */; };
+		3ADBBD4E19982EF500C5F81D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADBBD2D19982EF400C5F81D /* Foundation.framework */; };
+		3ADBBD4F19982EF500C5F81D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADBBD3119982EF400C5F81D /* UIKit.framework */; };
+		3ADBBD5719982EF500C5F81D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBBD5519982EF500C5F81D /* InfoPlist.strings */; };
+		3ADBBD5919982EF500C5F81D /* RHGitHubXcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBBD5819982EF500C5F81D /* RHGitHubXcodeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ADBBD5019982EF500C5F81D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ADBBD2219982EF400C5F81D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ADBBD2919982EF400C5F81D;
+			remoteInfo = RHGitHubXcode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3ADBBD2A19982EF400C5F81D /* RHGitHubXcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHGitHubXcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADBBD2D19982EF400C5F81D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3ADBBD2F19982EF400C5F81D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3ADBBD3119982EF400C5F81D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3ADBBD3519982EF400C5F81D /* RHGitHubXcode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RHGitHubXcode-Info.plist"; sourceTree = "<group>"; };
+		3ADBBD3719982EF400C5F81D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3ADBBD3919982EF400C5F81D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3ADBBD3B19982EF400C5F81D /* RHGitHubXcode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RHGitHubXcode-Prefix.pch"; sourceTree = "<group>"; };
+		3ADBBD3C19982EF400C5F81D /* RHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHAppDelegate.h; sourceTree = "<group>"; };
+		3ADBBD3D19982EF400C5F81D /* RHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHAppDelegate.m; sourceTree = "<group>"; };
+		3ADBBD4019982EF400C5F81D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ADBBD4219982EF500C5F81D /* RHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHViewController.h; sourceTree = "<group>"; };
+		3ADBBD4319982EF500C5F81D /* RHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHViewController.m; sourceTree = "<group>"; };
+		3ADBBD4519982EF500C5F81D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3ADBBD4B19982EF500C5F81D /* RHGitHubXcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RHGitHubXcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADBBD4C19982EF500C5F81D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3ADBBD5419982EF500C5F81D /* RHGitHubXcodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RHGitHubXcodeTests-Info.plist"; sourceTree = "<group>"; };
+		3ADBBD5619982EF500C5F81D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3ADBBD5819982EF500C5F81D /* RHGitHubXcodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHGitHubXcodeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ADBBD2719982EF400C5F81D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADBBD3019982EF400C5F81D /* CoreGraphics.framework in Frameworks */,
+				3ADBBD3219982EF400C5F81D /* UIKit.framework in Frameworks */,
+				3ADBBD2E19982EF400C5F81D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADBBD4819982EF500C5F81D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADBBD4D19982EF500C5F81D /* XCTest.framework in Frameworks */,
+				3ADBBD4F19982EF500C5F81D /* UIKit.framework in Frameworks */,
+				3ADBBD4E19982EF500C5F81D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ADBBD2119982EF400C5F81D = {
+			isa = PBXGroup;
+			children = (
+				3ADBBD3319982EF400C5F81D /* RHGitHubXcode */,
+				3ADBBD5219982EF500C5F81D /* RHGitHubXcodeTests */,
+				3ADBBD2C19982EF400C5F81D /* Frameworks */,
+				3ADBBD2B19982EF400C5F81D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ADBBD2B19982EF400C5F81D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBBD2A19982EF400C5F81D /* RHGitHubXcode.app */,
+				3ADBBD4B19982EF500C5F81D /* RHGitHubXcodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ADBBD2C19982EF400C5F81D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBBD2D19982EF400C5F81D /* Foundation.framework */,
+				3ADBBD2F19982EF400C5F81D /* CoreGraphics.framework */,
+				3ADBBD3119982EF400C5F81D /* UIKit.framework */,
+				3ADBBD4C19982EF500C5F81D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3ADBBD3319982EF400C5F81D /* RHGitHubXcode */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBBD3C19982EF400C5F81D /* RHAppDelegate.h */,
+				3ADBBD3D19982EF400C5F81D /* RHAppDelegate.m */,
+				3ADBBD3F19982EF400C5F81D /* Main.storyboard */,
+				3ADBBD4219982EF500C5F81D /* RHViewController.h */,
+				3ADBBD4319982EF500C5F81D /* RHViewController.m */,
+				3ADBBD4519982EF500C5F81D /* Images.xcassets */,
+				3ADBBD3419982EF400C5F81D /* Supporting Files */,
+			);
+			path = RHGitHubXcode;
+			sourceTree = "<group>";
+		};
+		3ADBBD3419982EF400C5F81D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBBD3519982EF400C5F81D /* RHGitHubXcode-Info.plist */,
+				3ADBBD3619982EF400C5F81D /* InfoPlist.strings */,
+				3ADBBD3919982EF400C5F81D /* main.m */,
+				3ADBBD3B19982EF400C5F81D /* RHGitHubXcode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3ADBBD5219982EF500C5F81D /* RHGitHubXcodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBBD5819982EF500C5F81D /* RHGitHubXcodeTests.m */,
+				3ADBBD5319982EF500C5F81D /* Supporting Files */,
+			);
+			path = RHGitHubXcodeTests;
+			sourceTree = "<group>";
+		};
+		3ADBBD5319982EF500C5F81D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBBD5419982EF500C5F81D /* RHGitHubXcodeTests-Info.plist */,
+				3ADBBD5519982EF500C5F81D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ADBBD2919982EF400C5F81D /* RHGitHubXcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ADBBD5C19982EF500C5F81D /* Build configuration list for PBXNativeTarget "RHGitHubXcode" */;
+			buildPhases = (
+				3ADBBD2619982EF400C5F81D /* Sources */,
+				3ADBBD2719982EF400C5F81D /* Frameworks */,
+				3ADBBD2819982EF400C5F81D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RHGitHubXcode;
+			productName = RHGitHubXcode;
+			productReference = 3ADBBD2A19982EF400C5F81D /* RHGitHubXcode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ADBBD4A19982EF500C5F81D /* RHGitHubXcodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ADBBD5F19982EF500C5F81D /* Build configuration list for PBXNativeTarget "RHGitHubXcodeTests" */;
+			buildPhases = (
+				3ADBBD4719982EF500C5F81D /* Sources */,
+				3ADBBD4819982EF500C5F81D /* Frameworks */,
+				3ADBBD4919982EF500C5F81D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ADBBD5119982EF500C5F81D /* PBXTargetDependency */,
+			);
+			name = RHGitHubXcodeTests;
+			productName = RHGitHubXcodeTests;
+			productReference = 3ADBBD4B19982EF500C5F81D /* RHGitHubXcodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ADBBD2219982EF400C5F81D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RH;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					3ADBBD4A19982EF500C5F81D = {
+						TestTargetID = 3ADBBD2919982EF400C5F81D;
+					};
+				};
+			};
+			buildConfigurationList = 3ADBBD2519982EF400C5F81D /* Build configuration list for PBXProject "RHGitHubXcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ADBBD2119982EF400C5F81D;
+			productRefGroup = 3ADBBD2B19982EF400C5F81D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ADBBD2919982EF400C5F81D /* RHGitHubXcode */,
+				3ADBBD4A19982EF500C5F81D /* RHGitHubXcodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ADBBD2819982EF400C5F81D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADBBD4619982EF500C5F81D /* Images.xcassets in Resources */,
+				3ADBBD3819982EF400C5F81D /* InfoPlist.strings in Resources */,
+				3ADBBD4119982EF400C5F81D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADBBD4919982EF500C5F81D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADBBD5719982EF500C5F81D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ADBBD2619982EF400C5F81D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADBBD3E19982EF400C5F81D /* RHAppDelegate.m in Sources */,
+				3ADBBD3A19982EF400C5F81D /* main.m in Sources */,
+				3ADBBD4419982EF500C5F81D /* RHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADBBD4719982EF500C5F81D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADBBD5919982EF500C5F81D /* RHGitHubXcodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ADBBD5119982EF500C5F81D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ADBBD2919982EF400C5F81D /* RHGitHubXcode */;
+			targetProxy = 3ADBBD5019982EF500C5F81D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3ADBBD3619982EF400C5F81D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ADBBD3719982EF400C5F81D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3ADBBD3F19982EF400C5F81D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ADBBD4019982EF400C5F81D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3ADBBD5519982EF500C5F81D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ADBBD5619982EF500C5F81D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ADBBD5A19982EF500C5F81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3ADBBD5B19982EF500C5F81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ADBBD5D19982EF500C5F81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RHGitHubXcode/RHGitHubXcode-Prefix.pch";
+				INFOPLIST_FILE = "RHGitHubXcode/RHGitHubXcode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3ADBBD5E19982EF500C5F81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RHGitHubXcode/RHGitHubXcode-Prefix.pch";
+				INFOPLIST_FILE = "RHGitHubXcode/RHGitHubXcode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3ADBBD6019982EF500C5F81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RHGitHubXcode.app/RHGitHubXcode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RHGitHubXcode/RHGitHubXcode-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RHGitHubXcodeTests/RHGitHubXcodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3ADBBD6119982EF500C5F81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RHGitHubXcode.app/RHGitHubXcode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RHGitHubXcode/RHGitHubXcode-Prefix.pch";
+				INFOPLIST_FILE = "RHGitHubXcodeTests/RHGitHubXcodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ADBBD2519982EF400C5F81D /* Build configuration list for PBXProject "RHGitHubXcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADBBD5A19982EF500C5F81D /* Debug */,
+				3ADBBD5B19982EF500C5F81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ADBBD5C19982EF500C5F81D /* Build configuration list for PBXNativeTarget "RHGitHubXcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADBBD5D19982EF500C5F81D /* Debug */,
+				3ADBBD5E19982EF500C5F81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3ADBBD5F19982EF500C5F81D /* Build configuration list for PBXNativeTarget "RHGitHubXcodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADBBD6019982EF500C5F81D /* Debug */,
+				3ADBBD6119982EF500C5F81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ADBBD2219982EF400C5F81D /* Project object */;
+}
